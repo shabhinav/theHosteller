@@ -1,0 +1,89 @@
+.factbox_container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.upper_desc {
+  flex: 0.5;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.lower_desc {
+  flex: 0.5;
+}
+
+.hero_desc_left_container {
+  border-right: 1px solid #d2d2d2;
+}
+
+.inner_desc {
+  border-right: 1px solid #d2d2d2;
+  justify-content: center;
+  align-items: flex-start;
+  // flex: 1;
+}
+.inner_desc:last-child {
+  border: none;
+}
+
+.hero_description {
+  // margin-top:-150px
+}
+
+.trip_booking {
+  border-bottom: 1px solid black;
+}
+
+.trips_icons {
+  margin-right: 10px;
+}
+
+.tripDesc_Container {
+  border: 1px solid #d2d2d2;
+}
+
+.trip_location_dex {
+  line-height: 17px;
+}
+
+.remove_button {
+  @apply font-semibold;
+  color: grey;
+  background-color: #dadada;
+  margin: 5px;
+  border: 2px solid grey;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.add_remove_button {
+  @apply font-semibold;
+  border: 2px solid grey;
+  color: grey;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.download_link {
+  border-bottom: 2px solid #b45309;
+}
+
+.trip_hero_description {
+  flex: 0.87;
+}
+
+.trip_hero_amount {
+  flex: 0.13;
+}
+
+.trip_desc_icons {
+  height: 24px;
+  width: 24px;
+}

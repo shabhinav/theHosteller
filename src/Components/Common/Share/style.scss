@@ -1,0 +1,16 @@
+.share {
+  position: fixed;
+  bottom: 90px;
+  height: 54px;
+  width: 54px;
+  border-radius: 100%;
+  right: 100px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .share {
+    right: 14px;
+  }
+}

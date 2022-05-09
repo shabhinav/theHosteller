@@ -1,0 +1,68 @@
+.navbar_container {
+  @apply bg-primary h-20 flex items-center justify-between;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar_left_container {
+  @apply flex items-center;
+}
+
+.navlinks {
+  @apply text-black text-base font-semibold px-7 ;
+}
+
+.navbar_brand {
+  width: 250px;
+  @apply h-20;
+  margin: 0 0 0 -20px;
+  -webkit-transform: skew(-25deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  background: black;
+  overflow: hidden;
+  position: relative;
+}
+.image {
+  background-image: url("../../Assets/images/logo.png");
+  background-repeat: no-repeat;
+  background-size: 140px;
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  right: -30px;
+  bottom: -30px;
+  -webkit-transform: skew(25deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+}
+
+.LoginIcon {
+  height: 25px;
+  width: 25px;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle {
+  top: -10px !important;
+  right: 25px !important;
+  border-radius: 5px !important;
+}
+
+// .mobile_sideDraw {
+.MuiDrawer-paperAnchorRight {
+  width: 100%;
+  // }
+}
+
+.workation_badge {
+  .MuiBadge-anchorOriginTopRightRectangle {
+    top: -10px !important;
+    right: 45px !important;
+    border-radius: 5px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .desktop_link {
+    display: hidden;
+  }
+}

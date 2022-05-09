@@ -1,0 +1,41 @@
+.rmdp-input {
+  padding: 17px 15px;
+  text-align: center;
+  margin: 8px;
+}
+
+.rdrDefinedRangesWrapper {
+  display: none !important;
+}
+
+.rdrStartEdge ~ .rdrDayNumber span {
+  color: #0a3082 !important;
+  font-weight: 900 !important;
+}
+
+.rdrStartEdge ~ .rdrDayNumber span:hover {
+  color: #0a3082 !important;
+  font-weight: 900 !important;
+}
+
+.rdrStartEdge ~ .rdrDayNumber > span::after {
+  background-color: #0a3082 !important;
+}
+
+.rdrInRange ~ .rdrDayNumber span {
+  color: #0a3082 !important;
+  font-weight: 900 !important;
+}
+
+.rdrEndEdge ~ .rdrDayNumber span {
+  color: #0a3082 !important;
+  font-weight: 900 !important;
+}
+
+.rdrMonthName {
+  @apply bg-primary ;
+  color: #0a3082 !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+}
+

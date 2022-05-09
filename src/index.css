@@ -1,0 +1,41 @@
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Mulish" !important;
+}
+
+@layer base {
+  h1 {
+    @apply font-Playfair font-normal leading-heading m-0 text-6xl;
+  }
+
+  h2 {
+    @apply font-normal leading-heading m-0 text-6xl;
+  }
+  h3 {
+    @apply font-normal leading-heading m-0 text-5xl;
+  }
+  h4 {
+    @apply font-normal leading-heading m-0 text-4xl;
+  }
+  h5 {
+    @apply font-normal leading-heading m-0 text-xl;
+  }
+  h6 {
+    @apply font-normal leading-heading m-0 text-base;
+  }
+  p {
+    @apply text-tiny leading-para m-0;
+  }
+  a {
+    @apply no-underline;
+  }
+  label {
+    @apply block text-black font-medium text-base;
+  }
+}
+
+body {
+  margin: 0;
+}

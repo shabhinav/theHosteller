@@ -1,0 +1,21 @@
+@media screen and (min-width: 1000px) {
+  #Hostelscard1,
+  #Workationscard1,
+  #Workationscard4,
+  #Tripscard1,
+  #Tripscard4,
+  #Hostelscard4 {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #Hostelscard1,
+  #Workationscard1,
+  #Workationscard4,
+  #Tripscard1,
+  #Tripscard4,
+  #Hostelscard4 {
+    margin-top: 0px;
+  }
+}

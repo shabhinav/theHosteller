@@ -1,0 +1,12 @@
+.trip_overview_container {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 600px){
+  .trips_card{
+    padding:20px;
+    background-color: white;
+    border-radius: 6px;
+  }
+}

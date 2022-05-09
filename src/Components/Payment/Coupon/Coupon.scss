@@ -1,0 +1,15 @@
+.coupon_container {
+  border: 1px solid rgba(158, 121, 121, 0.12);
+  background-color: #fff8ba;
+}
+
+.coupon_select {
+  border: 1px dashed lightgrey;
+  border-radius: 6px;
+}
+
+.apply_coupon {
+  .MuiInputBase-input {
+    background-color: white;
+  }
+}

@@ -1,0 +1,30 @@
+.mobile_cart_view {
+  position: fixed;
+  //   flex-direction: column;
+  width: 100%;
+  background-color: #282828;
+  color: #fff;
+  //   box-shadow: 0 -3px 6px rgb(0 0 0 / 16%);
+  bottom: 0;
+  //   z-index: 0;
+  left: 0;
+  padding: 5px 10px 15px 10px;
+  transform: translateY(100%);
+  transition-timing-function: ease-out;
+  transition: 0.2s;
+}
+
+.mobile_cart_img {
+  height: 100px;
+}
+
+.review_details_container{
+  border-top: 1px solid lightgrey;
+}
+
+.animate-up {
+  transform: translateY(0);
+  bottom: 0;
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+}

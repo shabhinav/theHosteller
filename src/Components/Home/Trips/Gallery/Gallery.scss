@@ -1,0 +1,26 @@
+.gallery_legend {
+  height: 100%;
+  width: 100%;
+}
+
+.slider-wrapper {
+  width: 95% !important;
+  border-radius: 5px;
+}
+
+.trips_carousel {
+  @media screen and (max-width: 600px) {
+    .thumbs {
+      padding-left: 10px !important;
+    }
+  }
+  @media screen and (min-width: 650px) {
+    .carousel .thumb {
+      width: 150px !important;
+      height: 100px !important;
+    }
+    .carousel .thumb > img {
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.multi-carousel {
+  .slick-slide {
+    padding-bottom: 15px;
+  }
+  .slick-dots li {
+    width: 14px !important;
+    height: 14px !important;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    top: 1px;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    color: #ffe500 !important;
+    font-size: 30px !important;
+  }
+
+
+
+  li button:before {
+    font-size: 10px !important;
+    color: transparent;
+    border-radius: 50%;
+    opacity: 1 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #ffe500 !important;
+  }
+
+  .slick-prev {
+    left: -25px !important;
+    z-index: 1;
+
+  }
+
+  .slick-next {
+    right: -25px !important;
+  }
+
+  @media screen and (max-width: "640px") {
+    .slick-prev {
+      left: -15px !important;
+    }
+
+    .slick-next {
+      right: -10px !important;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.room_info_modal {
+  width: 80vw;
+  p {
+    text-align: inherit;
+  }
+}
+
+.carousel-root {
+  width: 40vw !important;
+}
+
+.hostel_room_image {
+  .slide .selected {
+    height: 341px;
+    width: 547px;
+  }
+
+  .thumb {
+    max-height: 57px !important;
+  }
+  .room_carousel_img {
+    max-height: 365px;
+  }
+}

@@ -1,0 +1,63 @@
+.hosteller_bookings {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.12);
+}
+
+.profile_containers {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
+
+.profile_container {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.booking_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 255px);
+  grid-gap: 5px;
+}
+
+.interSection {
+  border: 0.5px solid #ffe500;
+}
+
+.num_nights_heading {
+  top: 23px;
+  left: -50px;
+  width: 70px;
+  border-radius: 6px;
+  @apply bg-primary text-tiny py-2 px-4 text-center;
+}
+
+.num_nights_double_heading {
+  top: 4px;
+  left: -50px;
+  width: 70px;
+  border-radius: 6px;
+  @apply bg-primary text-tiny py-2 px-4 text-center;
+}
+
+.canceledBookingContainer {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+@media screen and (max-width: 650px) {
+  .booking_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .booking_container {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .add_review_container {
+    width: 25vw;
+  }
+}
+
+.review_text_area {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 5px;
+  outline: none;
+}

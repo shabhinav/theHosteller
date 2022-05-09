@@ -1,0 +1,55 @@
+.searchType_container {
+  border-radius: 6px 6px 0px 0px;
+}
+
+.first_searchType {
+  border-radius: 6px 0px 0px 0px;
+}
+
+.last_searchType {
+  border-radius: 0px 6px 0px 0px;
+}
+
+.middle_searchType {
+  border-left: 0.1px solid gray;
+  border-right: 0.1px solid gray;
+}
+
+.trips_search_styling {
+  border-radius: 6px 6px 0px 0px;
+}
+
+.main_search_container .MuiSelect-select {
+  max-width: 150px !important;
+}
+
+.main_search_container {
+  
+}
+
+@media screen and (max-width: 641px) {
+  .main_search_container .MuiSelect-select {
+    max-width: 100% !important;
+  }
+}
+
+button[class^="MuiPickersDay-daySelected"],
+button[class*=" MuiPickersDay-daySelected"] {
+  background-color: #ffe700 !important;
+  color: black;
+}
+
+button[class^="MuiButton-textPrimary"],
+button[class*=" MuiButton-textPrimary"] {
+  color: black !important;
+  background-color: #ffe700 !important;
+}
+h4[class^="MuiPickersToolbarText-toolbarBtnSelected"],
+h4[class*="MuiPickersToolbarText-toolbarBtnSelected"] {
+  color: black !important;
+}
+
+h6[class^="MuiPickersToolbarText-toolbarTxt"],
+h6[class*="MuiPickersToolbarText-toolbarTxt"] {
+  color: black !important;
+}

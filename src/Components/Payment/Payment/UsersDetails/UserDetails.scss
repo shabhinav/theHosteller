@@ -1,0 +1,52 @@
+.userDetail_container {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+
+  .MuiOutlinedInput-input {
+    padding: 10px !important;
+  }
+  .form_container {
+    // border-bottom: 1px solid lightgrey;
+  }
+  .address_container {
+    padding: 20px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+  }
+
+  .Room_heading {
+    border-left: 15px solid yellow;
+  }
+}
+
+.form_container {
+  .MuiSelect-select {
+    max-width: 200px;
+  }
+}
+
+
+@media screen and (max-width: 1500px) and (min-width: 600px) {
+  .default_form_container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 0px) {
+  .default_form_container {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .form_container {
+  .MuiSelect-select {
+    max-width: 100%;
+  }
+}
+
+}
+
+
+.reselect_label {
+  margin-bottom: 9px;
+}

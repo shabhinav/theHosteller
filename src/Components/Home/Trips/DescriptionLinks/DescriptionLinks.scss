@@ -1,0 +1,15 @@
+.horizontal_row {
+  border: 0.5px solid lightgrey;
+}
+
+.selectedTab {
+  border-bottom: 5px solid #f27b14;
+}
+
+.trips_desc_links{
+  cursor: pointer;
+}
+
+.trip_desc_links::-webkit-scrollbar {
+  display: none !important; 
+}

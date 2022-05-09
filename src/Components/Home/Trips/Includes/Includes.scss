@@ -1,0 +1,24 @@
+.trip_includes {
+  li {
+    margin-top: 10px;
+    @apply text-blogPara text-sm;
+  }
+  ol {
+    padding-left: 20px;
+  }
+  .include_container {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.25);
+  }
+  .inc_list_icon{
+    height:40px;
+    width:40px;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .trip_includes_container {
+    background-color: white;
+    padding: 20px;
+  }
+}

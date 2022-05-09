@@ -1,0 +1,14 @@
+.amenties_container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.hostel_amenities {
+  height: 24px;
+  width: 24px;
+  fill: #b45309 !important;
+}
+
+/* .primaryAmenties{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+} */

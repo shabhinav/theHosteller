@@ -1,0 +1,7 @@
+.location_description {
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  @apply p-4;
+}
+.mapaThumb .mapaItem{ overflow:hidden; height:150px; }

@@ -1,0 +1,60 @@
+.card_img {
+  width: 100%;
+  height: 230px;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.feature_icon {
+  @apply px-1 xs:px-2;
+}
+
+.card_short_desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card_heading {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.recommendation_card {
+  position: relative;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.recommendation_card:hover {
+  transform: scale(1.01);
+}
+
+.recommendation_card:after {
+  content: "";
+  background: yellow;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.recommendation_card:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.loading_card {
+  height: 450px;
+}

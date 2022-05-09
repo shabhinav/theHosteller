@@ -1,0 +1,57 @@
+.workation_bcg_img {
+  background-image: url(../../Assets/images/backgroundImg.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.avatar {
+  height: 140px;
+  width: 140px;
+}
+
+.first_home_desc_container {
+  background-image: linear-gradient(#fffde9, white);
+}
+
+.home_blog_container {
+  transform: rotateY(180deg);
+  z-index: -1;
+  width: 100%;
+}
+
+.bg_mask {
+  background: rgba(0, 0, 0, 0.53);
+}
+
+
+.product_screen_container {
+  .checkIn_container {
+    @media screen and (min-width: 648px) {
+      div[class*="MuiFormControl-root"] {
+        border: 1px solid darkgrey !important;
+        padding: 8px 0px 8px 10px !important;
+        width: 180px;
+        border-radius: 4px !important;
+      }
+      div[class*="MuiFormControl-marginNormal"] {
+        margin-top: 8px !important;
+      }
+
+      div[class*="MuiInput-underline"]:before {
+        border: none !important;
+        transition: none !important;
+      }
+      div[class*="MuiInput-underline"]:after {
+        border: none !important;
+        transition: none !important;
+      }
+    }
+    @media screen and (max-width: 648px) {
+      div[class*="MuiFormControl-root"] {
+        width: 100%;
+        margin-left: 10px;
+      }
+    }
+  }
+}

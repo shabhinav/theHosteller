@@ -1,0 +1,25 @@
+.profile_container {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.profile_containers {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
+
+.progress_container {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.profile_links {
+  color: black;
+}
+
+.camera_icon {
+  left: 70%;
+  bottom:-24px
+}
+
+.active_link{
+  @apply bg-primary
+}

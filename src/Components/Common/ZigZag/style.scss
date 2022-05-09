@@ -1,0 +1,16 @@
+.zigzag_container {
+  .left_container {
+    flex: 0.4;
+  }
+
+  .right_container {
+    flex: 0.6;
+  }
+}
+
+.zig_zag_content {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

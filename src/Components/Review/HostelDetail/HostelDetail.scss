@@ -1,0 +1,117 @@
+.hostel_detail {
+  .order_description {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px 20px 20px 20px;
+    border-radius: 6px;
+    // background: white;
+  }
+
+  .review_rooms {
+    visibility: hidden;
+  }
+
+  #review0 {
+    visibility: visible;
+  }
+
+  .order_rules {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-bottom: 20px !important;
+  }
+
+  .booking_details_rooms_details {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.12);
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .booking_details_container {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  }
+
+  .hostel_img {
+    width: 185px;
+    height: 108px;
+    border-radius: 6px;
+  }
+
+  .main_heading {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  }
+
+  .address_container {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  }
+
+  .check_section {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  .check_in_container {
+  }
+  .interSection {
+    border: 0.5px solid #ffe500;
+  }
+  .room_type_details {
+    color: rgba(33, 33, 33, 0.6);
+  }
+
+  .total_rooms {
+    visibility: hidden;
+  }
+  .num_nights_heading {
+    top: 13px;
+    left: -50px;
+    width: 70px;
+    border-radius: 6px;
+    @apply bg-primary text-tiny py-2 px-4 text-center;
+  }
+
+  .num_nights_double_heading {
+    top: 4px;
+    left: -50px;
+    width: 70px;
+    border-radius: 6px;
+    @apply bg-primary text-tiny py-2 px-4 text-center;
+  }
+
+  @media screen and (max-width: 650px) {
+    .num_nights_heading {
+      width: 60px;
+      top: 20px;
+    }
+    .booking_detals_container {
+      display: grid;
+      grid-template-columns: 1fr 5fr;
+    }
+  }
+
+  @media screen and (max-width: 330px) {
+    .num_nights_heading {
+      width: 60px;
+      top: 30px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .num_nights_heading {
+      width: 60px;
+      top: 20px;
+    }
+    .booking_detals_container {
+      display: grid;
+      grid-template-rows: 1fr 5fr;
+    }
+    .order_description {
+      margin: 20px 10px 20px 10px;
+    }
+    .hostel_img {
+      max-width: 145px;
+      max-height: 108px;
+      border-radius: 10px;
+    }
+  }
+}

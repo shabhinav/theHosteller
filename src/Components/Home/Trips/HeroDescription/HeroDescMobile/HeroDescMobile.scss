@@ -1,0 +1,36 @@
+.mobile_grid_styling {
+  @apply text-center border-dashed border p-2;
+  word-break: break-all;
+}
+
+.fact_box_container {
+  @apply bg-lightRed;
+  border: 1px dashed #d8d8d8;
+}
+
+.fact_box_grp {
+  border-bottom: 1px dashed #d8d8d8;
+}
+
+.fact_box_grp:nth-child(1) {
+  border-right: 1px dashed #d8d8d8;
+}
+
+.fact_box_grp:nth-child(3) {
+  border-right: 1px dashed #d8d8d8;
+}
+
+.factbox_lower_desc:nth-child(2) {
+  border-right: 1px dashed #d8d8d8;
+  border-left: 1px dashed #d8d8d8;
+}
+
+.upper-Container {
+  border: 1px dashed #d8d8d8;
+}
+
+
+.trip_desc_icons {
+  height: 24px;
+  width: 24px;
+}

@@ -1,0 +1,77 @@
+.review_step_one {
+  border: 1px solid black;
+  @apply bg-primary;
+}
+
+// .review_step_one::after {
+//   position: absolute;
+//   content: "hello";
+//   border: 1px solid black;
+// }
+
+.review_step_two {
+  border: 1px solid #d2d6dc;
+}
+
+.hostel_details_container {
+  flex: 0.7;
+  z-index: 1;
+}
+
+.hostel_price_container {
+  flex: 0.3;
+  border-radius: 6px;
+  z-index: 1;
+}
+
+.hostel_price_inner_container {
+  margin-top: 15px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+
+.price_container_content {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.12);
+  margin-top: 10px;
+}
+
+.price_container_content:last-child {
+  border: none;
+}
+
+.order_banner {
+  height: 240px;
+  width: 100%;
+  background-color: #73a438;
+}
+.order_failure {
+  height: 240px;
+  width: 100%;
+  background-color: red;
+}
+
+.review_container {
+  @apply xl:container mx-auto;
+  max-width: 85%;
+}
+
+@media screen and (max-width: 640px) {
+  .review_container {
+    @apply xl:container mx-auto;
+    max-width: 100%;
+  }
+  .hostel_details_container {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 770px) and (min-width: 641px) {
+  .review_container {
+    @apply xl:container mx-auto;
+    max-width: 100%;
+  }
+  .hostel_details_container {
+    flex: 1;
+  }
+}

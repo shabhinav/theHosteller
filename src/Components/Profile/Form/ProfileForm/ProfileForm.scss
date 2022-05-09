@@ -1,0 +1,22 @@
+.profileDate_container {
+  
+  .MuiFormControl-root {
+    border: 1px solid lightgrey !important;
+    padding: 8px 0px 8px 10px !important;
+    width: 95%;
+    border-radius: 4px !important;
+  }
+
+  .MuiInput-underline:before {
+    border: none !important;
+    transition: none !important;
+  }
+  .MuiInput-underline:after {
+    border: none !important;
+    transition: none !important;
+  }
+}
+
+.profile_form {
+    width: 30vw !important;
+  }

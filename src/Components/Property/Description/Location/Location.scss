@@ -1,0 +1,19 @@
+.location_container {
+  .react-tabs__tab--selected {
+    border-radius: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    // background-color: white !important;
+    border-bottom: 1px solid white !important;
+    @apply text-soil font-medium;
+  }
+  .react-tabs__tab {
+    // background-color: #f7f7f7;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12) ;
+  }
+  .react-tabs__tab-list {
+    padding: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+  }
+}

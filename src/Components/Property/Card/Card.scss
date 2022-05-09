@@ -1,0 +1,24 @@
+.propertyCard_left_container {
+  //   flex: 0.7;
+}
+
+.card_amenties_list {
+  padding-left: 20px;
+}
+
+.card_price_info {
+  border-top: 1px solid lightgrey;
+}
+
+.card_price_details{
+  padding:0.5rem;
+  border: 1px solid #FFE500;
+  text-align: center;
+  border-radius:6px ;
+}
+
+.mobile_room_info {
+  .MuiDrawer-paperAnchorRight {
+    height: 100vh;
+  }
+}

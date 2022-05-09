@@ -1,0 +1,23 @@
+// @media screen and (max-width:600) {
+//     .drowndown_form{
+//         wid
+//     }
+// }
+
+@media screen and (max-width: 1200px) and (max-width: 600px) {
+  //   .dropdown_container {
+  //     .dropdown_form {
+  //       min-width: 180px !important;
+  //     }
+  //   }
+  .dropdown_container {
+    width: 100%;
+  }
+}
+// \.dropdown_container
+
+@media screen and (max-width: 600px) {
+  .dropdown_container {
+    width: 40%;
+  }
+}

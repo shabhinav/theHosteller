@@ -1,0 +1,23 @@
+.DescriptionLinks {
+  @apply my-2 sm:hidden lg:hidden  sticky  bg-white z-10;
+  top: 198px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  @apply xl:container mx-auto;
+  max-width: 80%;
+}
+
+.DescriptionLinks {
+  .active_link {
+    @apply text-soil;
+    background-color:white !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .DescriptionLinks {
+    top: 80px;
+    @apply xl:container mx-auto;
+    max-width: 100%;
+  }
+}
+

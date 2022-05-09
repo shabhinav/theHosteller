@@ -1,0 +1,66 @@
+.google_button {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+}
+
+.guestLogin {
+  .MuiOutlinedInput-input {
+    padding: 10px !important;
+  }
+}
+
+.right_left_container {
+  flex: 0.5;
+  background-image: url("../../Assets/images/signup.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.facebook_button {
+  background: #1877f2;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  width: 250px;
+  margin: auto;
+  cursor: pointer;
+}
+.facebook_button:active {
+  transform: scale(0.98);
+}
+
+.google_button {
+  width: 250px;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  text-align: center;
+  display: flex !important;
+  justify-content: center !important;
+  // color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.google_button:active {
+  transform: scale(0.98);
+}
+
+
+.google_button > div {
+  margin-left: -18px;
+  margin-right: 0px !important;
+}
+
+@media screen and (max-width: 640px) {
+  .guestLogin {
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 770px) and (min-width: 641px) {
+  .guestLogin {
+    width: 85vw;
+  }
+}
