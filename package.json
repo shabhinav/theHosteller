@@ -76,7 +76,7 @@
   "scripts": {
     "prebuild": "npm run delete && npm run predeploy",
     "start": "craco start",
-    "build": "craco build && location",
+    "build": "craco build && npm run location",
     "test": "craco test",
     "eject": "react-scripts eject",
     "sitemap": "babel-node ./sitemap-generator.js",
